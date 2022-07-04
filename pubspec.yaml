@@ -25,6 +25,9 @@ dependencies:
   # singleton
   get_it: ^7.2.0
 
+  # ui util
+  lottie: ^1.2.1
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -42,3 +45,4 @@ flutter:
     - assets/images/
     - assets/language/
     - assets/gif/
+    - assets/json/

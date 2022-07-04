@@ -2,7 +2,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:food_deliver/core/constants/app/app_constants.dart';
 import 'package:food_deliver/locator.dart';
-import 'package:food_deliver/screen/on_board/view/on_board_view.dart';
+import 'package:food_deliver/screen/splash/splash_view.dart';
 import 'package:food_deliver/user_data.dart';
 import 'package:provider/provider.dart';
 
@@ -37,7 +37,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: ApplicationConstants.appName,
         theme: AppThemeLight.instance.theme,
-        home: const OnBoardView(),
+        home: const SplashScreen(),
       ),
     );
   }
