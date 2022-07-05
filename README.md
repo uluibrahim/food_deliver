@@ -1,16 +1,20 @@
-# food_deliver
+# Food Deliver
 
-A new Flutter project.
+Food Deliver yemek teslimi projesidir.
 
-## Getting Started
+## Projede kullanılan kütüphaneler
 
-This project is a starting point for a Flutter application.
+- [State Management: provider](https://pub.dev/packages/provider)
+- [Singleton: get_it](https://pub.dev/packages/get_it)
+- [Localization: easy_localization](https://pub.dev/packages/easy_localization)
+- [Splash: lottie](https://pub.dev/packages/lottie)
 
-A few resources to get you started if this is your first Flutter project:
+Yararlanılan UI/UX 
+- [Chopspick- Food Deliver Mobile App Design](https://www.figma.com/community/file/1099355115282350296)
+- Teşekkürler [@Ugeee](https://www.figma.com/@Ugeee)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![on_board](screenshots/on_board.png) 
+![login](screenshots/login.png)
+![home](screenshots/home.png)
+![basket](screenshots/basket.png)
+![product_detail](screenshots/product_detail.png)
